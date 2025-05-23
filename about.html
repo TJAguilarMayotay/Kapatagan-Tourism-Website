@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kapatagan (LDN) Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/3/37/Seal_of_Kapatagan%2C_Lanao_del_Norte.png">
+</head>
+<body>
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="glass-nav">
+        <div class="nav-left">
+            <img src="images/kapatagan-seal.png" alt="Kapatagan Seal" class="seal-img">
+            <h1 class="municipal-name">KAPATAGAN<br><span>Lanao del Norte</span></h1>
+        </div>
+        <div class="nav-right">
+            <div class="current-time" id="current-time"></div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="./login.html" class="logout-btn">LOGOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <header class="page-header glass-card">
+            <h2>About Kapatagan</h2>
+            <p>Learn about our leadership, history, and key facts that make our municipality unique.</p>
+        </header>
+
+        <!-- Leadership Section -->
+        <section class="leadership-section">
+            <h3 class="section-title">Municipal Leadership</h3>
+            <div class="leadership-cards">
+                <!-- Mayor Card -->
+                <div class="leader-card glass-card">
+                    <div class="leader-image" style="background-image: url('./images/municipal-mayor.jpg');"></div>
+                    <div class="leader-info">
+                        <h4>Beth Baguio-Ali</h4>
+                        <div class="leader-term">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>2025 - Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vice Mayor Card -->
+                <div class="leader-card glass-card">
+                    <div class="leader-image" style="background-image: url('./images/municipal-vice-mayor.jpg');"></div>
+                    <div class="leader-info">
+                        <h4>Barry Y. Baguio</h4>
+                        <div class="leader-term">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>2025 - Present</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section class="history-section">
+            <h3 class="section-title">Municipal History</h3>
+            <div class="history-card glass-card">
+                <p>Kapatagan, which means "plain area" in the local dialect, was officially created as a municipality on June 22, 1959, under Executive Order No. 350. Originally inhabited by the Maranao people, the area gradually saw migration from neighboring provinces, creating a diverse cultural tapestry.</p>
+                <p>The town played a significant role in the agricultural development of Lanao del Norte, with its vast plains becoming the region's breadbasket. During the American colonial period, Kapatagan served as an important trading post between the coastal and inland communities.</p>
+                <p>Today, Kapatagan stands as a thriving municipality that balances agricultural heritage with modern development, while preserving its unique cultural identity and natural resources.</p>
+            </div>
+        </section>
+
+        <!-- Quick Facts Section -->
+        <section class="quick-facts-section">
+            <h3 class="section-title">Quick Facts</h3>
+            <div class="quick-facts-grid">
+                <!-- Etymology -->
+                <div class="fact-card glass-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h4>Etymology</h4>
+                    <p>Kapatagan comes from the Visayan word meaning "plain" or "flat land", referring to the municipality's vast plains.</p>
+                </div>
+
+                <!-- Geography -->
+                <div class="fact-card glass-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h4>Geography</h4>
+                    <p>Located in the southern part of Lanao del Norte, bounded by Sultan Naga Dimaporo to the north and Kauswagan to the east.</p>
+                </div>
+
+                <!-- Topography -->
+                <div class="fact-card glass-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h4>Topography</h4>
+                    <p>Characterized by flat to gently rolling terrain with elevation ranging from 50 to 300 meters above sea level.</p>
+                </div>
+
+                <!-- Barangays -->
+                <div class="fact-card glass-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>Barangays</h4>
+                    <p>Composed of 33 barangays, with Poblacion as the town center and administrative capital.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/tjboy.aguilar" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@Azeu_Mark" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; <span id="current-year"></span> Municipality of Kapatagan, Lanao del Norte. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

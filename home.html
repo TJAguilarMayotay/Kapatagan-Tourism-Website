@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapatagan (LDN) - Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/3/37/Seal_of_Kapatagan%2C_Lanao_del_Norte.png">
+</head>
+<body>
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="glass-nav">
+        <div class="nav-left">
+            <img src="images/kapatagan-seal.png" alt="Kapatagan Seal" class="seal-img">
+            <h1 class="municipal-name">KAPATAGAN<br><span>Lanao del Norte</span></h1>
+        </div>
+        <div class="nav-right">
+            <div class="current-time" id="current-time"></div>
+            <ul class="nav-links">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./login.html" class="logout-btn">LOGOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Welcome Section -->
+        <section class="welcome-section glass-card">
+            <h2>Welcome to KAPATAGAN</h2>
+            <p>Discover the beauty, culture, and heritage of Kapatagan, Lanao del Norte - a municipality blessed with natural wonders and warm hospitality.</p>
+        </section>
+
+        <!-- Cards Section -->
+        <section class="cards-section">
+            <!-- Main Card -->
+            <div class="main-card glass-card">
+                <div class="card-image municipal-hall-img"></div>
+                <div class="card-content">
+                    <h3>Municipal Hall</h3>
+                    <p>The seat of local government showcasing our commitment to serve the people of Kapatagan with integrity and excellence.</p>
+                    <button class="explore-btn">Explore More</button>
+                </div>
+            </div>
+
+            <!-- Sub Cards Container -->
+            <div class="sub-cards-container">
+                <!-- Sub Card 1 -->
+                <div class="sub-card glass-card">
+                    <h4>Barangays</h4>
+                    <div class="stat-number">33</div>
+                    <p>Kapatagan is composed of 33 barangays, each with its unique charm and character.</p>
+                </div>
+
+                <!-- Sub Card 2 -->
+                <div class="sub-card glass-card">
+                    <h4>Population</h4>
+                    <div class="stat-number">76,000+</div>
+                    <p>Our vibrant community is home to over 76,000 warm and hospitable residents.</p>
+                </div>
+
+                <!-- Sub Card 3 -->
+                <div class="sub-card glass-card">
+                    <h4>Land Area</h4>
+                    <div class="stat-number">242.89 km²</div>
+                    <p>Spanning 242.89 square kilometers of lush landscapes and scenic vistas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/tjboy.aguilar" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@Azeu_Mark" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; <span id="current-year"></span> Municipality of Kapatagan, Lanao del Norte. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

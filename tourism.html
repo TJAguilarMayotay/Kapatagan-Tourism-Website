@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spots | Kapatagan (LDN) Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png"
+        href="https://upload.wikimedia.org/wikipedia/en/3/37/Seal_of_Kapatagan%2C_Lanao_del_Norte.png">
+</head>
+
+<body>
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="glass-nav">
+        <div class="nav-left">
+            <img src="images/kapatagan-seal.png" alt="Kapatagan Seal" class="seal-img">
+            <h1 class="municipal-name">KAPATAGAN<br><span>Lanao del Norte</span></h1>
+        </div>
+        <div class="nav-right">
+            <div class="current-time" id="current-time"></div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tourism.html" class="active">Tourism</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="./login.html" class="logout-btn">LOGOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Page Header -->
+        <header class="page-header glass-card">
+            <h2>Discover Kapatagan's Treasures</h2>
+            <p>Explore the breathtaking tourist spots that showcase the natural beauty and cultural heritage of our
+                municipality.</p>
+        </header>
+
+        <!-- Tourist Spots Grid -->
+        <section class="tourist-spots-grid">
+            <div class="spot-card glass-card">
+                <div class="spot-image" style="background-image: url('./images/tourism/cathedral-falls.png');"></div>
+                <div class="spot-info">
+                    <h3>Cathedral Falls</h3>
+                    <p>Discover the breathtaking beauty of Cathedral Falls in Kapatagan, Lanao Del Norte, where majestic
+                        waters cascade against stunning rock formations, creating a truly awe-inspiring natural wonder.
+                    </p>
+                </div>
+            </div>
+            <div class="spot-card glass-card">
+                <div class="spot-image" style="background-image: url('./images/tourism/durano.png');"></div>
+                <div class="spot-info">
+                    <h3>Durano View</h3>
+                    <p>Experience the stunning, elevated perspective of Durano View & Mountain Resort, offering a
+                        tranquil escape with picturesque landscapes.
+                    </p>
+                </div>
+            </div>
+            <div class="spot-card glass-card">
+                <div class="spot-image" style="background-image: url('./images/tourism/la-libertad-lake.png');"></div>
+                <div class="spot-info">
+                    <h3>La Liberad Lake</h3>
+                    <p>Discover the tranquil beauty of La Libertad Lake in Kapatagan, Lanao del Norte, where a serene
+                        man-made lake surrounded by lush greenery offers a perfect escape for boating, kayaking,
+                        fishing, and peaceful relaxation amidst nature's embrace.
+                    </p>
+                </div>
+            </div>
+            <div class="spot-card glass-card">
+                <div class="spot-image" style="background-image: url('./images/tourism/santa-cruz-falls.png');"></div>
+                <div class="spot-info">
+                    <h3>Santa Cruz Falls</h3>
+                    <p>Immerse yourself in the breathtaking beauty of Santa Cruz Falls in Kapatagan, Lanao del Norte,
+                        where a magnificent multi-tiered waterfall cascades into inviting natural pools amidst a lush,
+                        untouched forest, offering a truly refreshing and adventurous escape.</p>
+                </div>
+            </div>
+            <div class="spot-card glass-card">
+                <div class="spot-image" style="background-image: url('./images/tourism/waterworld.png');"></div>
+                <div class="spot-info">
+                    <h3>Waterworld</h3>
+                    <p>Dive into fun at Waterworld in Kapatagan, Lanao del Norte, a vibrant aquatic park offering
+                        thrilling slides, spacious pools, and exciting water attractions perfect for a memorable family
+                        day out.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/tjboy.aguilar" aria-label="Facebook" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@Azeu_Mark" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; <span id="current-year"></span> Municipality of Kapatagan, Lanao del Norte. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
